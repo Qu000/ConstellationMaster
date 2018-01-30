@@ -14,6 +14,7 @@
 		5160F8B520200C0200AA06DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8AB20200C0200AA06DC /* ViewController.m */; };
 		5160F8B620200C0200AA06DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8B220200C0200AA06DC /* main.m */; };
 		5160F8B720200C0200AA06DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8B320200C0200AA06DC /* AppDelegate.m */; };
+		5160F8BB2020123200AA06DC /* CMBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8BA2020123200AA06DC /* CMBaseNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,10 @@
 		5160F8B120200C0200AA06DC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5160F8B220200C0200AA06DC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5160F8B320200C0200AA06DC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5160F8B8202011A900AA06DC /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		5160F8B92020123200AA06DC /* CMBaseNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMBaseNavController.h; sourceTree = "<group>"; };
+		5160F8BA2020123200AA06DC /* CMBaseNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBaseNavController.m; sourceTree = "<group>"; };
+		5160F8BC2020128400AA06DC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +107,13 @@
 		5160F8A820200C0200AA06DC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5160F8A920200C0200AA06DC /* Libs */,
+				5160F8B420200C0200AA06DC /* Base */,
 				5160F8AA20200C0200AA06DC /* Home首页 */,
-				5160F8AD20200C0200AA06DC /* Profile个人 */,
 				5160F8AE20200C0200AA06DC /* Divination占卜 */,
 				5160F8AF20200C0200AA06DC /* Friends好友 */,
+				5160F8AD20200C0200AA06DC /* Profile个人 */,
 				5160F8B020200C0200AA06DC /* Main */,
-				5160F8B420200C0200AA06DC /* Base */,
+				5160F8A920200C0200AA06DC /* Libs */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -154,8 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				5160F8B120200C0200AA06DC /* AppDelegate.h */,
-				5160F8B220200C0200AA06DC /* main.m */,
 				5160F8B320200C0200AA06DC /* AppDelegate.m */,
+				5160F8B220200C0200AA06DC /* main.m */,
+				5160F8B8202011A900AA06DC /* Macros.h */,
+				5160F8BC2020128400AA06DC /* PrefixHeader.pch */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -163,6 +170,8 @@
 		5160F8B420200C0200AA06DC /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				5160F8B92020123200AA06DC /* CMBaseNavController.h */,
+				5160F8BA2020123200AA06DC /* CMBaseNavController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -211,6 +220,7 @@
 		5160F87920200B3A00AA06DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CM;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "瞿嘉洪";
 				TargetAttributes = {
@@ -269,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5160F8BB2020123200AA06DC /* CMBaseNavController.m in Sources */,
 				5160F8B620200C0200AA06DC /* main.m in Sources */,
 				5160F8B520200C0200AA06DC /* ViewController.m in Sources */,
 				5160F8B720200C0200AA06DC /* AppDelegate.m in Sources */,
@@ -422,6 +433,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9687TNJ7S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ConstellationMaster_iOS/Classes/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = ConstellationMaster_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Qu.ConstellationMaster-iOS";
@@ -435,6 +449,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9687TNJ7S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ConstellationMaster_iOS/Classes/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = ConstellationMaster_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Qu.ConstellationMaster-iOS";
