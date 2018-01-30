@@ -1,5 +1,5 @@
 //
-//  CMHomeViewController.h
+//  CMHomeTableViewCell.h
 //  ConstellationMaster_iOS
 //
 //  Created by qujiahong on 2018/1/30.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CMHomeViewController : UITableViewController
-
+@interface CMHomeTableViewCell : UITableViewCell
++ (instancetype)cellWithTableView:(UITableView *)tableView;
 @end

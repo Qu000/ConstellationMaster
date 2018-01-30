@@ -20,6 +20,7 @@
 		5160F9032020540A00AA06DC /* CMFriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F9022020540A00AA06DC /* CMFriViewController.m */; };
 		5160F9092020541300AA06DC /* CMDivViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F9062020541300AA06DC /* CMDivViewController.m */; };
 		5160F90F2020541F00AA06DC /* CMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F90C2020541F00AA06DC /* CMHomeViewController.m */; };
+		5160F915202054FA00AA06DC /* CMHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F914202054FA00AA06DC /* CMHomeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		5160F9072020541300AA06DC /* CMDivViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDivViewController.h; sourceTree = "<group>"; };
 		5160F90C2020541F00AA06DC /* CMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHomeViewController.m; sourceTree = "<group>"; };
 		5160F90D2020541F00AA06DC /* CMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHomeViewController.h; sourceTree = "<group>"; };
+		5160F913202054FA00AA06DC /* CMHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHomeTableViewCell.h; sourceTree = "<group>"; };
+		5160F914202054FA00AA06DC /* CMHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHomeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,8 +264,8 @@
 		5160F9052020541300AA06DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5160F9062020541300AA06DC /* CMDivViewController.m */,
 				5160F9072020541300AA06DC /* CMDivViewController.h */,
+				5160F9062020541300AA06DC /* CMDivViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,8 +287,10 @@
 		5160F90B2020541F00AA06DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5160F90C2020541F00AA06DC /* CMHomeViewController.m */,
 				5160F90D2020541F00AA06DC /* CMHomeViewController.h */,
+				5160F90C2020541F00AA06DC /* CMHomeViewController.m */,
+				5160F913202054FA00AA06DC /* CMHomeTableViewCell.h */,
+				5160F914202054FA00AA06DC /* CMHomeTableViewCell.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -404,6 +409,7 @@
 				5160F8BB2020123200AA06DC /* CMBaseNavController.m in Sources */,
 				5160F9092020541300AA06DC /* CMDivViewController.m in Sources */,
 				5160F8BF2020245400AA06DC /* CMBaseViewController.m in Sources */,
+				5160F915202054FA00AA06DC /* CMHomeTableViewCell.m in Sources */,
 				5160F8B620200C0200AA06DC /* main.m in Sources */,
 				5160F9032020540A00AA06DC /* CMFriViewController.m in Sources */,
 				5160F90F2020541F00AA06DC /* CMHomeViewController.m in Sources */,

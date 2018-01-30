@@ -8,30 +8,42 @@
 
 #import "CMHomeViewController.h"
 
+#import "CMHomeTableViewCell.h"
 @interface CMHomeViewController ()
+
+@property (nonatomic, strong)NSArray *listArr;
 
 @end
 
 @implementation CMHomeViewController
 
+//-(NSArray *)listArr{
+//    if (!_listArr) {
+//        _listArr = [NSArray arrayWithObjects:@"banner",@"每日一测",@"文章推荐",@"视频推荐", nil];
+//    }
+//    return _listArr;
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 44, 0);
+    _listArr = [NSArray arrayWithObjects:@"banner",@"每日一测",@"文章推荐",@"视频推荐", nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return _listArr.count;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    CMHomeTableViewCell * cell = [CMHomeTableViewCell cellWithTableView:tableView];
+    cell.backgroundColor = [UIColor purpleColor];
+    cell.textLabel.text = _listArr[indexPath.row];
+    return cell;
 }
-*/
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+   
+    return 120;
+}
 @end
