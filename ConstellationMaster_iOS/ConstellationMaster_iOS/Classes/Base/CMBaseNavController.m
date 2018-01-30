@@ -18,23 +18,26 @@
     [super viewDidLoad];
     
     //导航栏颜色
-    self.navigationBar.barTintColor = CMRGB(0, 216, 201);
+    self.navigationBar.barTintColor = CMRGB(255, 213, 31);
     self.navigationBar.tintColor = [UIColor whiteColor];//(item上为白色)
 }
+
+
+//重写push，隐藏tabBar
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    if (self.viewControllers.count) {
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
+    [super pushViewController:viewController animated:YES];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

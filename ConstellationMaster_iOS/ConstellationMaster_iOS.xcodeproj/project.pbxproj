@@ -11,10 +11,15 @@
 		5160F88E20200B3A00AA06DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88D20200B3A00AA06DC /* Assets.xcassets */; };
 		5160F89120200B3A00AA06DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88F20200B3A00AA06DC /* LaunchScreen.storyboard */; };
 		5160F89E20200B3A00AA06DC /* ConstellationMaster_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F89D20200B3A00AA06DC /* ConstellationMaster_iOSTests.m */; };
-		5160F8B520200C0200AA06DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8AB20200C0200AA06DC /* ViewController.m */; };
 		5160F8B620200C0200AA06DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8B220200C0200AA06DC /* main.m */; };
 		5160F8B720200C0200AA06DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8B320200C0200AA06DC /* AppDelegate.m */; };
 		5160F8BB2020123200AA06DC /* CMBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8BA2020123200AA06DC /* CMBaseNavController.m */; };
+		5160F8BF2020245400AA06DC /* CMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8BE2020245400AA06DC /* CMBaseViewController.m */; };
+		5160F8C2202024B500AA06DC /* CMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8C1202024B500AA06DC /* CMTabBarViewController.m */; };
+		5160F8C82020406300AA06DC /* CMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8C72020406300AA06DC /* CMHomeViewController.m */; };
+		5160F8CB2020407D00AA06DC /* CMDivViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8CA2020407D00AA06DC /* CMDivViewController.m */; };
+		5160F8CE202040A700AA06DC /* CMFriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8CD202040A700AA06DC /* CMFriViewController.m */; };
+		5160F8D1202040B400AA06DC /* CMProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F8D0202040B400AA06DC /* CMProViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 		5160F89920200B3A00AA06DC /* ConstellationMaster_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstellationMaster_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5160F89D20200B3A00AA06DC /* ConstellationMaster_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstellationMaster_iOSTests.m; sourceTree = "<group>"; };
 		5160F89F20200B3A00AA06DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5160F8AB20200C0200AA06DC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5160F8AC20200C0200AA06DC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5160F8B120200C0200AA06DC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5160F8B220200C0200AA06DC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5160F8B320200C0200AA06DC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +48,18 @@
 		5160F8B92020123200AA06DC /* CMBaseNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMBaseNavController.h; sourceTree = "<group>"; };
 		5160F8BA2020123200AA06DC /* CMBaseNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBaseNavController.m; sourceTree = "<group>"; };
 		5160F8BC2020128400AA06DC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5160F8BD2020245400AA06DC /* CMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMBaseViewController.h; sourceTree = "<group>"; };
+		5160F8BE2020245400AA06DC /* CMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBaseViewController.m; sourceTree = "<group>"; };
+		5160F8C0202024B500AA06DC /* CMTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMTabBarViewController.h; sourceTree = "<group>"; };
+		5160F8C1202024B500AA06DC /* CMTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMTabBarViewController.m; sourceTree = "<group>"; };
+		5160F8C62020406300AA06DC /* CMHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHomeViewController.h; sourceTree = "<group>"; };
+		5160F8C72020406300AA06DC /* CMHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHomeViewController.m; sourceTree = "<group>"; };
+		5160F8C92020407D00AA06DC /* CMDivViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMDivViewController.h; sourceTree = "<group>"; };
+		5160F8CA2020407D00AA06DC /* CMDivViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMDivViewController.m; sourceTree = "<group>"; };
+		5160F8CC202040A700AA06DC /* CMFriViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMFriViewController.h; sourceTree = "<group>"; };
+		5160F8CD202040A700AA06DC /* CMFriViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMFriViewController.m; sourceTree = "<group>"; };
+		5160F8CF202040B400AA06DC /* CMProViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMProViewController.h; sourceTree = "<group>"; };
+		5160F8D0202040B400AA06DC /* CMProViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMProViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +143,8 @@
 		5160F8AA20200C0200AA06DC /* Home首页 */ = {
 			isa = PBXGroup;
 			children = (
-				5160F8AB20200C0200AA06DC /* ViewController.m */,
-				5160F8AC20200C0200AA06DC /* ViewController.h */,
+				5160F8C62020406300AA06DC /* CMHomeViewController.h */,
+				5160F8C72020406300AA06DC /* CMHomeViewController.m */,
 			);
 			path = "Home首页";
 			sourceTree = "<group>";
@@ -137,6 +152,8 @@
 		5160F8AD20200C0200AA06DC /* Profile个人 */ = {
 			isa = PBXGroup;
 			children = (
+				5160F8CF202040B400AA06DC /* CMProViewController.h */,
+				5160F8D0202040B400AA06DC /* CMProViewController.m */,
 			);
 			path = "Profile个人";
 			sourceTree = "<group>";
@@ -144,6 +161,8 @@
 		5160F8AE20200C0200AA06DC /* Divination占卜 */ = {
 			isa = PBXGroup;
 			children = (
+				5160F8C92020407D00AA06DC /* CMDivViewController.h */,
+				5160F8CA2020407D00AA06DC /* CMDivViewController.m */,
 			);
 			path = "Divination占卜";
 			sourceTree = "<group>";
@@ -151,6 +170,8 @@
 		5160F8AF20200C0200AA06DC /* Friends好友 */ = {
 			isa = PBXGroup;
 			children = (
+				5160F8CC202040A700AA06DC /* CMFriViewController.h */,
+				5160F8CD202040A700AA06DC /* CMFriViewController.m */,
 			);
 			path = "Friends好友";
 			sourceTree = "<group>";
@@ -172,6 +193,10 @@
 			children = (
 				5160F8B92020123200AA06DC /* CMBaseNavController.h */,
 				5160F8BA2020123200AA06DC /* CMBaseNavController.m */,
+				5160F8BD2020245400AA06DC /* CMBaseViewController.h */,
+				5160F8BE2020245400AA06DC /* CMBaseViewController.m */,
+				5160F8C0202024B500AA06DC /* CMTabBarViewController.h */,
+				5160F8C1202024B500AA06DC /* CMTabBarViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -279,9 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5160F8CE202040A700AA06DC /* CMFriViewController.m in Sources */,
+				5160F8C2202024B500AA06DC /* CMTabBarViewController.m in Sources */,
 				5160F8BB2020123200AA06DC /* CMBaseNavController.m in Sources */,
+				5160F8BF2020245400AA06DC /* CMBaseViewController.m in Sources */,
+				5160F8D1202040B400AA06DC /* CMProViewController.m in Sources */,
+				5160F8C82020406300AA06DC /* CMHomeViewController.m in Sources */,
 				5160F8B620200C0200AA06DC /* main.m in Sources */,
-				5160F8B520200C0200AA06DC /* ViewController.m in Sources */,
+				5160F8CB2020407D00AA06DC /* CMDivViewController.m in Sources */,
 				5160F8B720200C0200AA06DC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
