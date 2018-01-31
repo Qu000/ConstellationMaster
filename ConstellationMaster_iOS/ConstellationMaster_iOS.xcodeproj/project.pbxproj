@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3DE4408436D1212A99640EDC /* libPods-ConstellationMaster_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53AE8864C61F68254D8202 /* libPods-ConstellationMaster_iOS.a */; };
+		51152A912021AC22001FE392 /* CMHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51152A902021AC22001FE392 /* CMHttpTool.m */; };
+		51152A952021B5EE001FE392 /* CMBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51152A942021B5EE001FE392 /* CMBaseHandler.m */; };
+		51152A982021B643001FE392 /* CMHomeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51152A972021B643001FE392 /* CMHomeHandler.m */; };
 		5160F88C20200B3A00AA06DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88A20200B3A00AA06DC /* Main.storyboard */; };
 		5160F88E20200B3A00AA06DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88D20200B3A00AA06DC /* Assets.xcassets */; };
 		5160F89120200B3A00AA06DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88F20200B3A00AA06DC /* LaunchScreen.storyboard */; };
@@ -38,6 +41,13 @@
 /* Begin PBXFileReference section */
 		0E113708483C8D051E49C27B /* Pods-ConstellationMaster_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstellationMaster_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConstellationMaster_iOS/Pods-ConstellationMaster_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		110DE70B3551C235BE2B7209 /* libPods-ConstellationMaster_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConstellationMaster_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51152A8C2021A638001FE392 /* CMAPIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAPIConfig.h; sourceTree = "<group>"; };
+		51152A8F2021AC22001FE392 /* CMHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHttpTool.h; sourceTree = "<group>"; };
+		51152A902021AC22001FE392 /* CMHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHttpTool.m; sourceTree = "<group>"; };
+		51152A932021B5EE001FE392 /* CMBaseHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMBaseHandler.h; sourceTree = "<group>"; };
+		51152A942021B5EE001FE392 /* CMBaseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBaseHandler.m; sourceTree = "<group>"; };
+		51152A962021B643001FE392 /* CMHomeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHomeHandler.h; sourceTree = "<group>"; };
+		51152A972021B643001FE392 /* CMHomeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHomeHandler.m; sourceTree = "<group>"; };
 		5160F88120200B3A00AA06DC /* ConstellationMaster_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstellationMaster_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5160F88B20200B3A00AA06DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5160F88D20200B3A00AA06DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +103,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51152A8A2021A505001FE392 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				51152A8C2021A638001FE392 /* CMAPIConfig.h */,
+				51152A8F2021AC22001FE392 /* CMHttpTool.h */,
+				51152A902021AC22001FE392 /* CMHttpTool.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		51152A922021B5AB001FE392 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				51152A962021B643001FE392 /* CMHomeHandler.h */,
+				51152A972021B643001FE392 /* CMHomeHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
 		5160F87820200B3A00AA06DC = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +166,8 @@
 		5160F8A820200C0200AA06DC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				51152A8A2021A505001FE392 /* NetWorking */,
+				51152A922021B5AB001FE392 /* Handler */,
 				5160F8B420200C0200AA06DC /* Base */,
 				5160F8AA20200C0200AA06DC /* Home首页 */,
 				5160F8AE20200C0200AA06DC /* Divination占卜 */,
@@ -216,6 +247,8 @@
 				5160F8BE2020245400AA06DC /* CMBaseViewController.m */,
 				5160F8C0202024B500AA06DC /* CMTabBarViewController.h */,
 				5160F8C1202024B500AA06DC /* CMTabBarViewController.m */,
+				51152A932021B5EE001FE392 /* CMBaseHandler.h */,
+				51152A942021B5EE001FE392 /* CMBaseHandler.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -547,11 +580,14 @@
 				5160F9092020541300AA06DC /* CMDivViewController.m in Sources */,
 				5160F8BF2020245400AA06DC /* CMBaseViewController.m in Sources */,
 				5160F915202054FA00AA06DC /* CMHomeTableViewCell.m in Sources */,
+				51152A912021AC22001FE392 /* CMHttpTool.m in Sources */,
 				5160F8B620200C0200AA06DC /* main.m in Sources */,
+				51152A982021B643001FE392 /* CMHomeHandler.m in Sources */,
 				5160F9032020540A00AA06DC /* CMFriViewController.m in Sources */,
 				5160F90F2020541F00AA06DC /* CMHomeViewController.m in Sources */,
 				5160F8FD2020540100AA06DC /* CMProViewController.m in Sources */,
 				5160F8B720200C0200AA06DC /* AppDelegate.m in Sources */,
+				51152A952021B5EE001FE392 /* CMBaseHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

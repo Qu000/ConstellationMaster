@@ -9,6 +9,8 @@
 #import "CMHomeViewController.h"
 
 #import "CMHomeTableViewCell.h"
+#import "CMHomeHandler.h"
+
 @interface CMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong)NSArray *listArr;
@@ -21,10 +23,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 44, 0);
-    _listArr = [NSArray arrayWithObjects:@"banner",@"每日一测",@"文章推荐",@"视频推荐",@"test",@"test2", nil];
+    [self setupUI];
+    
+    [self loadData];
+
 }
 
+- (void)setupUI{
+    _listArr = [NSArray arrayWithObjects:@"banner",@"每日一测",@"文章推荐",@"视频推荐",@"test",@"test2", nil];
+//    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 44, 0);
+}
+- (void)loadData{
+    [CMHomeHandler executePostBannerTaskWithSuccess:^(id obj) {
+        
+        NSLog(@"%@",obj);
+        
+    } failed:^(id obj) {
+        
+        NSLog(@"%@",obj);
+        
+    }];
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return _listArr.count;
 }
