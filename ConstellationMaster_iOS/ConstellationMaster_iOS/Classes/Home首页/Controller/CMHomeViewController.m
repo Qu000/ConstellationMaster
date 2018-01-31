@@ -9,7 +9,7 @@
 #import "CMHomeViewController.h"
 
 #import "CMHomeTableViewCell.h"
-@interface CMHomeViewController ()
+@interface CMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong)NSArray *listArr;
 
@@ -17,18 +17,12 @@
 
 @implementation CMHomeViewController
 
-//-(NSArray *)listArr{
-//    if (!_listArr) {
-//        _listArr = [NSArray arrayWithObjects:@"banner",@"每日一测",@"文章推荐",@"视频推荐", nil];
-//    }
-//    return _listArr;
-//}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 44, 0);
-    _listArr = [NSArray arrayWithObjects:@"banner",@"每日一测",@"文章推荐",@"视频推荐", nil];
+//    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 44, 0);
+    _listArr = [NSArray arrayWithObjects:@"banner",@"每日一测",@"文章推荐",@"视频推荐",@"test",@"test2", nil];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

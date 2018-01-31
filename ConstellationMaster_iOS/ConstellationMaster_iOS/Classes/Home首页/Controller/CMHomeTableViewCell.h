@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CMHomeTableViewCell : UITableViewCell
+
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 @end

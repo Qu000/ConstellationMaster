@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DE4408436D1212A99640EDC /* libPods-ConstellationMaster_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53AE8864C61F68254D8202 /* libPods-ConstellationMaster_iOS.a */; };
 		5160F88C20200B3A00AA06DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88A20200B3A00AA06DC /* Main.storyboard */; };
 		5160F88E20200B3A00AA06DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88D20200B3A00AA06DC /* Assets.xcassets */; };
 		5160F89120200B3A00AA06DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88F20200B3A00AA06DC /* LaunchScreen.storyboard */; };
@@ -21,6 +22,7 @@
 		5160F9092020541300AA06DC /* CMDivViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F9062020541300AA06DC /* CMDivViewController.m */; };
 		5160F90F2020541F00AA06DC /* CMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F90C2020541F00AA06DC /* CMHomeViewController.m */; };
 		5160F915202054FA00AA06DC /* CMHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160F914202054FA00AA06DC /* CMHomeTableViewCell.m */; };
+		F6077355B3AE09246A84BE46 /* libPods-ConstellationMaster_iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 110DE70B3551C235BE2B7209 /* libPods-ConstellationMaster_iOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E113708483C8D051E49C27B /* Pods-ConstellationMaster_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstellationMaster_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConstellationMaster_iOS/Pods-ConstellationMaster_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		110DE70B3551C235BE2B7209 /* libPods-ConstellationMaster_iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConstellationMaster_iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5160F88120200B3A00AA06DC /* ConstellationMaster_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstellationMaster_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5160F88B20200B3A00AA06DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5160F88D20200B3A00AA06DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +67,10 @@
 		5160F90D2020541F00AA06DC /* CMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHomeViewController.h; sourceTree = "<group>"; };
 		5160F913202054FA00AA06DC /* CMHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHomeTableViewCell.h; sourceTree = "<group>"; };
 		5160F914202054FA00AA06DC /* CMHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHomeTableViewCell.m; sourceTree = "<group>"; };
+		56AAC62C5E2BBBB19FD29F29 /* Pods-ConstellationMaster_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstellationMaster_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConstellationMaster_iOSTests/Pods-ConstellationMaster_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65E077B85067FB7C3C126F3A /* Pods-ConstellationMaster_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstellationMaster_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConstellationMaster_iOSTests/Pods-ConstellationMaster_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B53AE8864C61F68254D8202 /* libPods-ConstellationMaster_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConstellationMaster_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916A27721E04EB1DB538CABD /* Pods-ConstellationMaster_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstellationMaster_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConstellationMaster_iOS/Pods-ConstellationMaster_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE4408436D1212A99640EDC /* libPods-ConstellationMaster_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6077355B3AE09246A84BE46 /* libPods-ConstellationMaster_iOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +99,8 @@
 				5160F88320200B3A00AA06DC /* ConstellationMaster_iOS */,
 				5160F89C20200B3A00AA06DC /* ConstellationMaster_iOSTests */,
 				5160F88220200B3A00AA06DC /* Products */,
+				AF1B1DA51CBBB5823BF902AA /* Pods */,
+				A5382313276966783C40933C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -302,6 +314,26 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A5382313276966783C40933C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B53AE8864C61F68254D8202 /* libPods-ConstellationMaster_iOS.a */,
+				110DE70B3551C235BE2B7209 /* libPods-ConstellationMaster_iOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1B1DA51CBBB5823BF902AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				916A27721E04EB1DB538CABD /* Pods-ConstellationMaster_iOS.debug.xcconfig */,
+				0E113708483C8D051E49C27B /* Pods-ConstellationMaster_iOS.release.xcconfig */,
+				56AAC62C5E2BBBB19FD29F29 /* Pods-ConstellationMaster_iOSTests.debug.xcconfig */,
+				65E077B85067FB7C3C126F3A /* Pods-ConstellationMaster_iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,9 +341,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5160F8A220200B3A00AA06DC /* Build configuration list for PBXNativeTarget "ConstellationMaster_iOS" */;
 			buildPhases = (
+				91F3C64B81679AB4C6FF96C9 /* [CP] Check Pods Manifest.lock */,
 				5160F87D20200B3A00AA06DC /* Sources */,
 				5160F87E20200B3A00AA06DC /* Frameworks */,
 				5160F87F20200B3A00AA06DC /* Resources */,
+				35E75F472152E3F8C2687E4A /* [CP] Embed Pods Frameworks */,
+				781109950FAD56F1E815F5F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,9 +361,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5160F8A520200B3A00AA06DC /* Build configuration list for PBXNativeTarget "ConstellationMaster_iOSTests" */;
 			buildPhases = (
+				3872C2A345B0B06296B40EFB /* [CP] Check Pods Manifest.lock */,
 				5160F89520200B3A00AA06DC /* Sources */,
 				5160F89620200B3A00AA06DC /* Frameworks */,
 				5160F89720200B3A00AA06DC /* Resources */,
+				92D4788FCD079E13D045C82F /* [CP] Embed Pods Frameworks */,
+				41C73BC778A0125A538DE302 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -399,6 +437,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35E75F472152E3F8C2687E4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConstellationMaster_iOS/Pods-ConstellationMaster_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3872C2A345B0B06296B40EFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConstellationMaster_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41C73BC778A0125A538DE302 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConstellationMaster_iOSTests/Pods-ConstellationMaster_iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		781109950FAD56F1E815F5F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConstellationMaster_iOS/Pods-ConstellationMaster_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F3C64B81679AB4C6FF96C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConstellationMaster_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D4788FCD079E13D045C82F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConstellationMaster_iOSTests/Pods-ConstellationMaster_iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5160F87D20200B3A00AA06DC /* Sources */ = {
@@ -562,6 +699,7 @@
 		};
 		5160F8A320200B3A00AA06DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916A27721E04EB1DB538CABD /* Pods-ConstellationMaster_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -578,6 +716,7 @@
 		};
 		5160F8A420200B3A00AA06DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E113708483C8D051E49C27B /* Pods-ConstellationMaster_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -594,6 +733,7 @@
 		};
 		5160F8A620200B3A00AA06DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56AAC62C5E2BBBB19FD29F29 /* Pods-ConstellationMaster_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -608,6 +748,7 @@
 		};
 		5160F8A720200B3A00AA06DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E077B85067FB7C3C126F3A /* Pods-ConstellationMaster_iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
