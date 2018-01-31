@@ -11,6 +11,7 @@
 		51152A912021AC22001FE392 /* CMHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51152A902021AC22001FE392 /* CMHttpTool.m */; };
 		51152A952021B5EE001FE392 /* CMBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51152A942021B5EE001FE392 /* CMBaseHandler.m */; };
 		51152A982021B643001FE392 /* CMHomeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51152A972021B643001FE392 /* CMHomeHandler.m */; };
+		51152A9B2021BE5D001FE392 /* CMFriRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51152A9A2021BE5D001FE392 /* CMFriRemindView.m */; };
 		5160F88C20200B3A00AA06DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88A20200B3A00AA06DC /* Main.storyboard */; };
 		5160F88E20200B3A00AA06DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88D20200B3A00AA06DC /* Assets.xcassets */; };
 		5160F89120200B3A00AA06DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160F88F20200B3A00AA06DC /* LaunchScreen.storyboard */; };
@@ -48,6 +49,8 @@
 		51152A942021B5EE001FE392 /* CMBaseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBaseHandler.m; sourceTree = "<group>"; };
 		51152A962021B643001FE392 /* CMHomeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHomeHandler.h; sourceTree = "<group>"; };
 		51152A972021B643001FE392 /* CMHomeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHomeHandler.m; sourceTree = "<group>"; };
+		51152A992021BE5D001FE392 /* CMFriRemindView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMFriRemindView.h; sourceTree = "<group>"; };
+		51152A9A2021BE5D001FE392 /* CMFriRemindView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMFriRemindView.m; sourceTree = "<group>"; };
 		5160F88120200B3A00AA06DC /* ConstellationMaster_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstellationMaster_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5160F88B20200B3A00AA06DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5160F88D20200B3A00AA06DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -286,6 +289,8 @@
 		5160F8FF2020540A00AA06DC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				51152A992021BE5D001FE392 /* CMFriRemindView.h */,
+				51152A9A2021BE5D001FE392 /* CMFriRemindView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -588,6 +593,7 @@
 				5160F8FD2020540100AA06DC /* CMProViewController.m in Sources */,
 				5160F8B720200C0200AA06DC /* AppDelegate.m in Sources */,
 				51152A952021B5EE001FE392 /* CMBaseHandler.m in Sources */,
+				51152A9B2021BE5D001FE392 /* CMFriRemindView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
